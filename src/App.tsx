@@ -1,20 +1,5 @@
-interface ButtonProps{
-  text?: string;
+import { Widget } from "./components/Widget";
+
+export function App(){
+  return <Widget/>
 }
-
-
-function Button(props: ButtonProps){
-  return <button className='button'>{props.text ?? 'Default'}</button>
-}
-
-function App() {
-  return (
-  <div className="flex gap-2">
-    <Button text = "Enviar"/>
-    <Button text = "OK"/>
-    <Button/>
-  </div>
-  )
-}
-
-export default App
