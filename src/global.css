@@ -2,6 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-.button{
-    @apply bg-violet-700 px-4 h-10 rounded text-violet-100;
-}
